@@ -1,0 +1,41 @@
+/* MenuList.css */
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Add some space between the cards */
+    padding: 20px; /* Add some padding around the container */
+  }
+  
+  .menu-card {
+    flex: 1 1 calc(25% - 40px); /* Ensure cards take up 25% of the container width, accounting for the gap */
+    max-width: 23%; /* Max width of each card */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    transition: transform 0.2s; /* Smooth transition for the hover effect */
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+  }
+  
+  @media (max-width: 1200px) {
+    .menu-card {
+      flex: 1 1 calc(33.333% - 40px); /* Adjust for smaller screens */
+      max-width: 30%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .menu-card {
+      flex: 1 1 calc(50% - 40px); /* Adjust for tablets */
+      max-width: 48%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .menu-card {
+      flex: 1 1 calc(100% - 40px); /* Adjust for mobile devices */
+      max-width: 96%;
+    }
+  }
+  

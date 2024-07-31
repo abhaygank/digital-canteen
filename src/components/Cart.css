@@ -1,0 +1,124 @@
+/* App.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #8a4f39; /* Rich brown for navbar */
+}
+
+.navbar-brand, .nav-link, .navbar-toggler-icon {
+  color: #fff !important; /* White text for navbar items */
+}
+
+.navbar-collapse .navbar-nav .nav-link:hover {
+  color: #d9a679 !important; /* Lighter brown for hover effect */
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #8a4f39; /* Rich brown for indicators */
+}
+
+h2 {
+  color: #8a4f39; /* Rich brown for headers */
+}
+
+.card {
+  background-color: #fffaf0; /* Off-white for card background */
+  border: 1px solid #8a4f39; /* Rich brown for border */
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.card-text {
+  font-size: 0.9em;
+  color: #4b2e26; /* Dark brown for card text */
+}
+
+.footer {
+  background-color: #8a4f39; /* Rich brown for footer */
+  color: #fff; /* White text for footer */
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #fff; /* White text for footer links */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Custom button styles */
+.btn-primary {
+  background-color: #8a4f39;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #7b432d;
+}
+
+.btn-secondary {
+  background-color: #d9a679;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #c09362;
+}
+
+/* Ensure footer stays at the bottom */
+html, body {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  background-color: #8a4f39; /* Rich brown for footer */
+  color: #fff; /* White text for footer */
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}

@@ -1,0 +1,10 @@
+.home-page {
+  /* Set background image from public folder */
+  background-image: url('/public/background1.jpeg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; /* Adjust height as needed */
+  /* Additional styling */
+  color: #fff; /* Example: set text color to white */
+  padding: 50px; /* Example: add padding for content */
+}
